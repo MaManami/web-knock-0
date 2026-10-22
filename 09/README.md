@@ -18,3 +18,42 @@ Automatic merge failed; fix conflicts and then commit the result.\
 メッセージ: Good morning, Japan!\
 >>>>>>> feature/morning-en\
 ```
+
+### 解消後のファイル内容
+```
+# あいさつ
+メッセージ: おはようございます、日本！ / Good morning, Japan!
+```
+
+### git log --graph --oneline の結果
+```
+[main b6a8417] merge: 朝の挨拶を日英併記でコンフリクト解消
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+*   b6a8417 (HEAD -> main) merge: 朝の挨拶を日英併記でコンフリクト解消
+|\  
+| * 8fae5b3 (feature/morning-en) feat: 朝の英語の挨拶に変更
+* | 0a963bf feat: 朝の日本語の挨拶に変更
+|/  
+* dc72950 feat: あいさつファイルを追加
+*   3b3e873 (origin/main, origin/HEAD) Merge branch 'main' of github.com:MaManami/web-knock-0
+|\  
+| * 52643f3 Update README.md
+| *   f71cdab Resolve merge conflict
+| |\  
+| | * 6f45d85 Add link for 課題03 in README
+| | * 6f32362 Fix README formatting for Git remote URLs
+| | * 8a77aa3 Fix formatting of origin URLs in README.md
+| | * 2722ccb Create README.md
+| | * a71c150 Fix formatting in README.md
+| | * d8a013a Remove confirmation section from README
+| | * 4058caa Update README.md
+| | * ea402e0 Update README.md
+| | * 2ee8931 Update README.md
+| | * d3243f6 Update README.md
+| | * 905fc1b Add verification section to README
+:
+```
