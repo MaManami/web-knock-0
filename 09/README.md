@@ -18,9 +18,9 @@ Automatic merge failed; fix conflicts and then commit the result.
 Gitが自動停止し、衝突箇所にマーカー（`<<<<<<<` / `=======` / `>>>>>>>`）が付与されている状態。
 ```
 <<<<<<< HEAD
-メッセージ: おはようございます、日本
+メッセージ: おはようございます!
 =======
-メッセージ: Good morning, Japan!
+メッセージ: Good morning!
 >>>>>>> feature/morning-en
 ```
 
@@ -30,7 +30,7 @@ Gitが自動停止し、衝突箇所にマーカー（`<<<<<<<` / `=======` / `>
 #### 解消後のファイル内容
 ```
 # あいさつ
-メッセージ: おはようございます、日本！ / Good morning, Japan!
+メッセージ: おはようございます！ / Good morning!
 ```
 ---
 
