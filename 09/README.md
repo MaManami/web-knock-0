@@ -10,9 +10,9 @@
 
 #### コンフリクト発生時の git status の結果
 ```
-Auto-merging practice/greeting.md\
-CONFLICT (content): Merge conflict in practice/greeting.md\
-Automatic merge failed; fix conflicts and then commit the result.\
+Auto-merging practice/greeting.md
+CONFLICT (content): Merge conflict in practice/greeting.md
+Automatic merge failed; fix conflicts and then commit the result.
 ```
 #### コンフリクト発生時のファイル内容
 Gitが自動停止し、衝突箇所にマーカー（`<<<<<<<` / `=======` / `>>>>>>>`）が付与されている状態。
