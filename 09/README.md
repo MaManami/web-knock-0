@@ -17,11 +17,11 @@ Automatic merge failed; fix conflicts and then commit the result.
 #### コンフリクト発生時のファイル内容
 Gitが自動停止し、衝突箇所にマーカー（`<<<<<<<` / `=======` / `>>>>>>>`）が付与されている状態。
 ```
-<<<<<<< HEAD\
-メッセージ: おはようございます、日本\
-=======\
-メッセージ: Good morning, Japan!\
->>>>>>> feature/morning-en\
+<<<<<<< HEAD
+メッセージ: おはようございます、日本
+=======
+メッセージ: Good morning, Japan!
+>>>>>>> feature/morning-en
 ```
 
 ### 2. コンフリクトの解消（仲裁）
