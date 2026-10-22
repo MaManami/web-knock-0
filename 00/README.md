@@ -14,8 +14,9 @@
 > git config --global user.email "184179951+MaManami@users.noreply.github.com"\
 > git config --global init.defaultBranch main
 
-### 確認
-git config --global --list\
-user.name=Manami Matsumoto\
-user.email=184179951+MaManami@users.noreply.github.com\
-init.defaultbranch=main\
+コマンドを使って設定されているか確認
+> git config --global --list\
+出力結果
+> user.name=Manami Matsumoto\
+> user.email=184179951+MaManami@users.noreply.github.com\
+> init.defaultbranch=main\
