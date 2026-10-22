@@ -1,12 +1,14 @@
 # web-knock-01
 ## 任意のディレクトリでgit initし，README.mdを作成して最初のコミットをせよ．
 
-### 課題01用のフォルダを作って移動する
+課題01用のフォルダを作って移動する\
 > mkdir web-knock-01\
-> cd web-knock-01\
+> cd web-knock-01
 
-### Gitリポジトリの初期化（git init）
-> git init\
+Gitリポジトリの初期化（git init）\
+> git init
+
+
 
 ### 
 
